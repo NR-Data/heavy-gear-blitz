@@ -1,0 +1,1069 @@
+{
+  "catalogue": {
+    "name": "Eden Models",
+    "id": "9c04-d38c-7afd-74fb",
+    "authorContact": "coldgap@gmail.com",
+    "authorName": "Coldgap",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "0ae7-d8d3-f08f-20a2",
+    "gameSystemRevision": 1,
+    "library": true,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "sharedSelectionEntries": [
+      {
+        "name": "Marshal Golem",
+        "id": "c64a-aaf7-c6b2-87da",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 212,
+        "publicationId": "20bd-c8e1-5e20-75e8",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "f5da-c495-ad81-0f8e", "hidden": false, "primary": true, "targetId": "70ee-6571-e701-4049"},
+          {"name": "Arms", "id": "3993-aa17-d700-8cdd", "hidden": false, "primary": false, "targetId": "4119-14a2-4e63-39ac"},
+          {"name": "Command-only Variant", "id": "940d-d654-7184-6ea3", "hidden": false, "primary": false, "targetId": "2473-f5c0-02aa-b0fc"}
+        ],
+        "costs": [{"name": " Action(s)", "typeId": "4e06-e713-b451-4dcf", "value": 1}, {"name": " Threat Value", "typeId": "1246-3dcc-42ed-c683", "value": 5}],
+        "entryLinks": [
+          {
+            "name": "Model Options",
+            "id": "3225-a9df-98c5-ee7b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "9c6f-64ad-4503-42ab",
+            "type": "selectionEntryGroup",
+            "entryLinks": [
+              {
+                "name": "Utopia APES (Constable and Marshal upgrade)",
+                "id": "8afe-a38f-2b91-4a8f",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "targetId": "a0a3-f045-4d61-6eb5",
+                "type": "selectionEntry",
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "2ddc-2b1c-a793-6b8b",
+                                "field": "selections",
+                                "includeChildForces": false,
+                                "includeChildSelections": true,
+                                "percentValue": false,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 1
+                              },
+                              {
+                                "childId": "4ddb-1caf-2f09-918c",
+                                "field": "selections",
+                                "includeChildForces": false,
+                                "includeChildSelections": true,
+                                "percentValue": false,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "e54b-9e59-c994-d744",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Auto-Cannon, Light", "id": "fd3f-86ef-931a-3286", "hidden": false, "targetId": "1c78-4e65-eda9-1594", "type": "profile"},
+          {"name": "Anti-Vehicle Rocket Pack, Light", "id": "df9e-ad06-a1f9-364d", "hidden": false, "targetId": "f12a-9673-7f6c-35b0", "type": "profile"},
+          {"name": "Anti-Personnel Grenade Launchers", "id": "4394-c939-779c-c98c", "hidden": false, "targetId": "2a72-11a6-3e0b-7c8d", "type": "profile"},
+          {"name": "Vibro Blade, Light", "id": "4f84-2247-4d5d-ad7b", "hidden": false, "targetId": "b471-9227-6b90-f597", "type": "profile"},
+          {"name": "Airdrop", "id": "7902-0b8c-4dbf-3404", "hidden": false, "targetId": "19a8-9f36-2ca4-ba51", "type": "rule"},
+          {"name": "Arms", "id": "9761-5e05-2400-22d1", "hidden": false, "targetId": "32f5-36dc-6e46-e571", "type": "rule"},
+          {"name": "Electronic Counter Measures:X [ECM:X]", "id": "08ac-ee53-da7f-b02c", "hidden": false, "targetId": "3298-f4a9-170c-808a", "type": "rule"},
+          {"name": "Electronic Counter-Counter Measures", "id": "7e40-645c-d7e1-c097", "hidden": false, "targetId": "9d73-3390-de6c-1fc9", "type": "rule"},
+          {"name": "Jetpack:X\"", "id": "cd83-64bd-1786-a457", "hidden": false, "targetId": "7aac-c44b-e1a6-cbe6", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Marshal Golem",
+            "id": "9e5a-fc37-e46f-2fe1",
+            "hidden": false,
+            "page": 212,
+            "publicationId": "20bd-c8e1-5e20-75e8",
+            "typeId": "59ec-9ec7-dc1a-0aff",
+            "typeName": "Model",
+            "characteristics": [
+              {"name": "TV", "$text": "5", "typeId": "a718-b78d-b4d7-3c98"},
+              {"name": "UA", "$text": "GP(CMD), SK(CMD)", "typeId": "759f-78f5-a55f-86a1"},
+              {"name": "MR", "$text": "W:6\"", "typeId": "d971-d530-75de-372c"},
+              {"name": "AR", "$text": "5", "typeId": "b326-1089-d050-c3d4"},
+              {"name": "H/S", "$text": "4/2", "typeId": "6956-1a42-03f7-5061"},
+              {"name": "A", "$text": "1", "typeId": "9151-7386-2112-169b"},
+              {"name": "GU", "$text": "4+", "typeId": "97e0-dcbe-fed2-c338"},
+              {"name": "PI", "$text": "4+", "typeId": "0d90-9e1a-4571-a154"},
+              {"name": "EW", "$text": "5+", "typeId": "d607-c085-3ac3-9660"},
+              {"name": "Weapons", "$text": "LAC(Arm), LRP, APGL, LVB(Arm)", "typeId": "4ddd-1a47-f23d-0436"},
+              {"name": "Traits", "$text": "Airdrop, Arms, ECM:1, ECCM, Jetpack:8\"", "typeId": "1ee4-e483-4899-3d16"},
+              {"name": "Type/Height", "$text": "Gear 1\"", "typeId": "22d3-588f-e366-c398"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Utopia APES (Constable, Man at Arms, and Marshal upgrade)",
+        "id": "a0a3-f045-4d61-6eb5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 212,
+        "publicationId": "20bd-c8e1-5e20-75e8",
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "42f5-33a1-1f9b-4be0",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Threat Value", "typeId": "1246-3dcc-42ed-c683", "value": 2}],
+        "infoLinks": [
+          {"name": "Stealth", "id": "ee92-859e-6b07-3f48", "hidden": false, "targetId": "bff2-8b5f-2f53-cb6c", "type": "rule"},
+          {"name": "Support", "id": "bed8-e474-a1d1-dfac", "hidden": false, "targetId": "ff46-dc88-661c-794c", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Utopia APES (Constable, Man at Arms, and Marshal upgrade)",
+            "id": "48dd-52b4-c9b8-655f",
+            "hidden": false,
+            "page": 212,
+            "publicationId": "20bd-c8e1-5e20-75e8",
+            "typeId": "59ec-9ec7-dc1a-0aff",
+            "typeName": "Model",
+            "characteristics": [
+              {"name": "TV", "$text": "+2", "typeId": "a718-b78d-b4d7-3c98"},
+              {"name": "UA", "$text": "GP, SK", "typeId": "759f-78f5-a55f-86a1"},
+              {"name": "MR", "typeId": "d971-d530-75de-372c"},
+              {"name": "AR", "typeId": "b326-1089-d050-c3d4"},
+              {"name": "H/S", "typeId": "6956-1a42-03f7-5061"},
+              {"name": "A", "typeId": "9151-7386-2112-169b"},
+              {"name": "GU", "typeId": "97e0-dcbe-fed2-c338"},
+              {"name": "PI", "typeId": "0d90-9e1a-4571-a154"},
+              {"name": "EW", "typeId": "d607-c085-3ac3-9660"},
+              {"name": "Weapons", "typeId": "4ddd-1a47-f23d-0436"},
+              {"name": "Traits", "$text": "+Stealth, +Support", "typeId": "1ee4-e483-4899-3d16"},
+              {"name": "Type/Height", "typeId": "22d3-588f-e366-c398"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Constable Golem, Suppressor",
+        "id": "8619-166a-3487-b823",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 212,
+        "publicationId": "20bd-c8e1-5e20-75e8",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "5a95-ac3d-94aa-adb7", "hidden": false, "primary": true, "targetId": "70ee-6571-e701-4049"},
+          {"name": "Arms", "id": "a21b-95a9-0b9a-f57c", "hidden": false, "primary": false, "targetId": "4119-14a2-4e63-39ac"}
+        ],
+        "costs": [{"name": " Action(s)", "typeId": "4e06-e713-b451-4dcf", "value": 1}, {"name": " Threat Value", "typeId": "1246-3dcc-42ed-c683", "value": 5}],
+        "entryLinks": [
+          {
+            "name": "Model Options",
+            "id": "fe4c-78da-ff5d-2bc8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "9c6f-64ad-4503-42ab",
+            "type": "selectionEntryGroup",
+            "entryLinks": [
+              {
+                "name": "Utopia APES (Constable and Marshal upgrade)",
+                "id": "8310-27c7-93e6-98c5",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "targetId": "a0a3-f045-4d61-6eb5",
+                "type": "selectionEntry",
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "2ddc-2b1c-a793-6b8b",
+                                "field": "selections",
+                                "includeChildForces": false,
+                                "includeChildSelections": true,
+                                "percentValue": false,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 1
+                              },
+                              {
+                                "childId": "4ddb-1caf-2f09-918c",
+                                "field": "selections",
+                                "includeChildForces": false,
+                                "includeChildSelections": true,
+                                "percentValue": false,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "e54b-9e59-c994-d744",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Grenade Launcher, Light", "id": "3b56-e169-8fd4-ba44", "hidden": false, "targetId": "5335-b2ad-8587-5bae", "type": "profile"},
+          {"name": "Anti-Personnel Grenade Launchers", "id": "06e1-09f4-0d06-59cf", "hidden": false, "targetId": "2a72-11a6-3e0b-7c8d", "type": "profile"},
+          {"name": "Vibro Blade, Light", "id": "3699-5bf2-4ebd-5366", "hidden": false, "targetId": "b471-9227-6b90-f597", "type": "profile"},
+          {"name": "Airdrop", "id": "1943-9bf4-cca8-a04a", "hidden": false, "targetId": "19a8-9f36-2ca4-ba51", "type": "rule"},
+          {"name": "Arms", "id": "9041-5773-68b3-83f7", "hidden": false, "targetId": "32f5-36dc-6e46-e571", "type": "rule"},
+          {"name": "Electronic Counter Measures:X [ECM:X]", "id": "1903-fa08-6662-3dcf", "hidden": false, "targetId": "3298-f4a9-170c-808a", "type": "rule"},
+          {"name": "Jetpack:X\"", "id": "f573-74ee-0488-6366", "hidden": false, "targetId": "7aac-c44b-e1a6-cbe6", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Suppressor Constable Golem",
+            "id": "46a1-b4f9-2d25-37c9",
+            "hidden": false,
+            "page": 212,
+            "publicationId": "20bd-c8e1-5e20-75e8",
+            "typeId": "59ec-9ec7-dc1a-0aff",
+            "typeName": "Model",
+            "characteristics": [
+              {"name": "TV", "$text": "5", "typeId": "a718-b78d-b4d7-3c98"},
+              {"name": "UA", "$text": "GP, LT", "typeId": "759f-78f5-a55f-86a1"},
+              {"name": "MR", "$text": "W:6\"", "typeId": "d971-d530-75de-372c"},
+              {"name": "AR", "$text": "5", "typeId": "b326-1089-d050-c3d4"},
+              {"name": "H/S", "$text": "4/2", "typeId": "6956-1a42-03f7-5061"},
+              {"name": "A", "$text": "1", "typeId": "9151-7386-2112-169b"},
+              {"name": "GU", "$text": "4+", "typeId": "97e0-dcbe-fed2-c338"},
+              {"name": "PI", "$text": "4+", "typeId": "0d90-9e1a-4571-a154"},
+              {"name": "EW", "$text": "6+", "typeId": "d607-c085-3ac3-9660"},
+              {"name": "Weapons", "$text": "LGL(Arm), APGL, LVB(Arm)", "typeId": "4ddd-1a47-f23d-0436"},
+              {"name": "Traits", "$text": "Airdrop, Arms, ECM:1, Jetpack:8\"", "typeId": "1ee4-e483-4899-3d16"},
+              {"name": "Type/Height", "$text": "Gear 1\"", "typeId": "22d3-588f-e366-c398"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Constable Golem, Ignus",
+        "id": "9669-20ea-fbcb-4ff8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 212,
+        "publicationId": "20bd-c8e1-5e20-75e8",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "0818-f85b-8e38-92f7", "hidden": false, "primary": true, "targetId": "70ee-6571-e701-4049"},
+          {"name": "Arms", "id": "df8d-9c93-dee6-b4e2", "hidden": false, "primary": false, "targetId": "4119-14a2-4e63-39ac"}
+        ],
+        "costs": [{"name": " Action(s)", "typeId": "4e06-e713-b451-4dcf", "value": 1}, {"name": " Threat Value", "typeId": "1246-3dcc-42ed-c683", "value": 5}],
+        "entryLinks": [
+          {
+            "name": "Model Options",
+            "id": "611a-8eaf-d690-472e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "9c6f-64ad-4503-42ab",
+            "type": "selectionEntryGroup",
+            "entryLinks": [
+              {
+                "name": "Utopia APES (Constable and Marshal upgrade)",
+                "id": "15a1-442f-8f75-a95e",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "targetId": "a0a3-f045-4d61-6eb5",
+                "type": "selectionEntry",
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "2ddc-2b1c-a793-6b8b",
+                                "field": "selections",
+                                "includeChildForces": false,
+                                "includeChildSelections": true,
+                                "percentValue": false,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 1
+                              },
+                              {
+                                "childId": "4ddb-1caf-2f09-918c",
+                                "field": "selections",
+                                "includeChildForces": false,
+                                "includeChildSelections": true,
+                                "percentValue": false,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "e54b-9e59-c994-d744",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Flamer, Light", "id": "faa7-319d-48d8-a8d9", "hidden": false, "targetId": "bc05-8618-9845-43ff", "type": "profile"},
+          {"name": "Anti-Personnel Grenade Launchers", "id": "5f68-e4f5-5755-e9b1", "hidden": false, "targetId": "2a72-11a6-3e0b-7c8d", "type": "profile"},
+          {"name": "Vibro Blade, Light", "id": "6588-4b74-331e-7efc", "hidden": false, "targetId": "b471-9227-6b90-f597", "type": "profile"},
+          {"name": "Airdrop", "id": "4fa4-2019-d850-4b9e", "hidden": false, "targetId": "19a8-9f36-2ca4-ba51", "type": "rule"},
+          {"name": "Arms", "id": "63ee-e4f5-3300-7d2d", "hidden": false, "targetId": "32f5-36dc-6e46-e571", "type": "rule"},
+          {"name": "Electronic Counter Measures:X [ECM:X]", "id": "ca49-c541-fcd3-d308", "hidden": false, "targetId": "3298-f4a9-170c-808a", "type": "rule"},
+          {"name": "Jetpack:X\"", "id": "076c-5a72-b466-5c16", "hidden": false, "targetId": "7aac-c44b-e1a6-cbe6", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Ignus Constable Golem",
+            "id": "1c7f-80fd-3687-9509",
+            "hidden": false,
+            "page": 212,
+            "publicationId": "20bd-c8e1-5e20-75e8",
+            "typeId": "59ec-9ec7-dc1a-0aff",
+            "typeName": "Model",
+            "characteristics": [
+              {"name": "TV", "$text": "5", "typeId": "a718-b78d-b4d7-3c98"},
+              {"name": "UA", "$text": "GP, LT", "typeId": "759f-78f5-a55f-86a1"},
+              {"name": "MR", "$text": "W:6\"", "typeId": "d971-d530-75de-372c"},
+              {"name": "AR", "$text": "5", "typeId": "b326-1089-d050-c3d4"},
+              {"name": "H/S", "$text": "4/2", "typeId": "6956-1a42-03f7-5061"},
+              {"name": "A", "$text": "1", "typeId": "9151-7386-2112-169b"},
+              {"name": "GU", "$text": "4+", "typeId": "97e0-dcbe-fed2-c338"},
+              {"name": "PI", "$text": "4+", "typeId": "0d90-9e1a-4571-a154"},
+              {"name": "EW", "$text": "6+", "typeId": "d607-c085-3ac3-9660"},
+              {"name": "Weapons", "$text": "LFL(Arm), APGL, LVB(Arm)", "typeId": "4ddd-1a47-f23d-0436"},
+              {"name": "Traits", "$text": "Airdrop, Arms, ECM:1, Jetpack:8\"", "typeId": "1ee4-e483-4899-3d16"},
+              {"name": "Type/Height", "$text": "Gear 1\"", "typeId": "22d3-588f-e366-c398"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Constable Golem",
+        "id": "ffbc-c3e1-ec4a-8d51",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 212,
+        "publicationId": "20bd-c8e1-5e20-75e8",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "344c-e7a3-a449-59d3", "hidden": false, "primary": true, "targetId": "70ee-6571-e701-4049"},
+          {"name": "Arms", "id": "3833-5357-f086-42c5", "hidden": false, "primary": false, "targetId": "4119-14a2-4e63-39ac"}
+        ],
+        "costs": [{"name": " Action(s)", "typeId": "4e06-e713-b451-4dcf", "value": 1}, {"name": " Threat Value", "typeId": "1246-3dcc-42ed-c683", "value": 5}],
+        "entryLinks": [
+          {
+            "name": "Model Options",
+            "id": "81ca-7472-2ed4-c26a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "9c6f-64ad-4503-42ab",
+            "type": "selectionEntryGroup",
+            "entryLinks": [
+              {
+                "name": "Utopia APES (Constable and Marshal upgrade)",
+                "id": "3281-a261-28d9-a4a1",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "targetId": "a0a3-f045-4d61-6eb5",
+                "type": "selectionEntry",
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "2ddc-2b1c-a793-6b8b",
+                                "field": "selections",
+                                "includeChildForces": false,
+                                "includeChildSelections": true,
+                                "percentValue": false,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 1
+                              },
+                              {
+                                "childId": "4ddb-1caf-2f09-918c",
+                                "field": "selections",
+                                "includeChildForces": false,
+                                "includeChildSelections": true,
+                                "percentValue": false,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "e54b-9e59-c994-d744",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Auto-Cannon, Light", "id": "8b9e-ecfb-9f64-bc95", "hidden": false, "targetId": "1c78-4e65-eda9-1594", "type": "profile"},
+          {"name": "Anti-Personnel Grenade Launchers", "id": "72c4-9d31-8405-aa15", "hidden": false, "targetId": "2a72-11a6-3e0b-7c8d", "type": "profile"},
+          {"name": "Vibro Blade, Light", "id": "e891-b20d-26ca-c0a0", "hidden": false, "targetId": "b471-9227-6b90-f597", "type": "profile"},
+          {"name": "Airdrop", "id": "7994-8a91-f17d-b28a", "hidden": false, "targetId": "19a8-9f36-2ca4-ba51", "type": "rule"},
+          {"name": "Arms", "id": "825e-1e31-02fc-9563", "hidden": false, "targetId": "32f5-36dc-6e46-e571", "type": "rule"},
+          {"name": "Electronic Counter Measures:X [ECM:X]", "id": "6b94-1a83-4bef-5b04", "hidden": false, "targetId": "3298-f4a9-170c-808a", "type": "rule"},
+          {"name": "Jetpack:X\"", "id": "4265-44ee-6932-231b", "hidden": false, "targetId": "7aac-c44b-e1a6-cbe6", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Constable Golem",
+            "id": "7417-d42a-b014-5352",
+            "hidden": false,
+            "page": 212,
+            "publicationId": "20bd-c8e1-5e20-75e8",
+            "typeId": "59ec-9ec7-dc1a-0aff",
+            "typeName": "Model",
+            "characteristics": [
+              {"name": "TV", "$text": "5", "typeId": "a718-b78d-b4d7-3c98"},
+              {"name": "UA", "$text": "GP", "typeId": "759f-78f5-a55f-86a1"},
+              {"name": "MR", "$text": "W:6\"", "typeId": "d971-d530-75de-372c"},
+              {"name": "AR", "$text": "5", "typeId": "b326-1089-d050-c3d4"},
+              {"name": "H/S", "$text": "4/2", "typeId": "6956-1a42-03f7-5061"},
+              {"name": "A", "$text": "1", "typeId": "9151-7386-2112-169b"},
+              {"name": "GU", "$text": "4+", "typeId": "97e0-dcbe-fed2-c338"},
+              {"name": "PI", "$text": "4+", "typeId": "0d90-9e1a-4571-a154"},
+              {"name": "EW", "$text": "6+", "typeId": "d607-c085-3ac3-9660"},
+              {"name": "Weapons", "$text": "LAC(Arm), APGL, LVB(Arm)", "typeId": "4ddd-1a47-f23d-0436"},
+              {"name": "Traits", "$text": "Airdrop, Arms, ECM:1, Jetpack:8\"", "typeId": "1ee4-e483-4899-3d16"},
+              {"name": "Type/Height", "$text": "Gear 1\"", "typeId": "22d3-588f-e366-c398"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Man at Arms Golem, Sniper",
+        "id": "0deb-5d14-e08c-ca55",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 212,
+        "publicationId": "20bd-c8e1-5e20-75e8",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "c2ab-f472-25da-ff23", "hidden": false, "primary": true, "targetId": "70ee-6571-e701-4049"},
+          {"name": "Arms", "id": "19ab-2b98-9b3b-435a", "hidden": false, "primary": false, "targetId": "4119-14a2-4e63-39ac"}
+        ],
+        "costs": [{"name": " Action(s)", "typeId": "4e06-e713-b451-4dcf", "value": 1}, {"name": " Threat Value", "typeId": "1246-3dcc-42ed-c683", "value": 6}],
+        "entryLinks": [
+          {
+            "name": "Model Options",
+            "id": "1d6a-113f-b19c-22cc",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "9c6f-64ad-4503-42ab",
+            "type": "selectionEntryGroup",
+            "entryLinks": [
+              {
+                "name": "Utopia APES (Constable and Marshal upgrade)",
+                "id": "67b3-ac7f-5e2b-c9b4",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "targetId": "a0a3-f045-4d61-6eb5",
+                "type": "selectionEntry",
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "2ddc-2b1c-a793-6b8b",
+                                "field": "selections",
+                                "includeChildForces": false,
+                                "includeChildSelections": true,
+                                "percentValue": false,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 1
+                              },
+                              {
+                                "childId": "4ddb-1caf-2f09-918c",
+                                "field": "selections",
+                                "includeChildForces": false,
+                                "includeChildSelections": true,
+                                "percentValue": false,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "e54b-9e59-c994-d744",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Rifle, Medium", "id": "d9b3-aeb5-001b-648c", "hidden": false, "targetId": "663e-92a5-c92d-87dd", "type": "profile"},
+          {"name": "Anti-Vehicle Rocket Pack, Light", "id": "e65c-ade6-a434-11e5", "hidden": false, "targetId": "f12a-9673-7f6c-35b0", "type": "profile"},
+          {"name": "Vibro Blade, Light", "id": "85d2-e738-08d8-eec4", "hidden": false, "targetId": "b471-9227-6b90-f597", "type": "profile"},
+          {"name": "Airdrop", "id": "a816-80ae-cde6-d38c", "hidden": false, "targetId": "19a8-9f36-2ca4-ba51", "type": "rule"},
+          {"name": "Arms", "id": "838d-0b1b-e860-29cc", "hidden": false, "targetId": "32f5-36dc-6e46-e571", "type": "rule"},
+          {"name": "Jetpack:X\"", "id": "31c0-52c4-51bf-1b27", "hidden": false, "targetId": "7aac-c44b-e1a6-cbe6", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Sniper Man at Arms Golem",
+            "id": "025d-c743-398c-2ba1",
+            "hidden": false,
+            "page": 212,
+            "publicationId": "20bd-c8e1-5e20-75e8",
+            "typeId": "59ec-9ec7-dc1a-0aff",
+            "typeName": "Model",
+            "characteristics": [
+              {"name": "TV", "$text": "5", "typeId": "a718-b78d-b4d7-3c98"},
+              {"name": "UA", "$text": "SK", "typeId": "759f-78f5-a55f-86a1"},
+              {"name": "MR", "$text": "W:6\"", "typeId": "d971-d530-75de-372c"},
+              {"name": "AR", "$text": "6", "typeId": "b326-1089-d050-c3d4"},
+              {"name": "H/S", "$text": "3/3", "typeId": "6956-1a42-03f7-5061"},
+              {"name": "A", "$text": "1", "typeId": "9151-7386-2112-169b"},
+              {"name": "GU", "$text": "4+", "typeId": "97e0-dcbe-fed2-c338"},
+              {"name": "PI", "$text": "5+", "typeId": "0d90-9e1a-4571-a154"},
+              {"name": "EW", "$text": "6+", "typeId": "d607-c085-3ac3-9660"},
+              {"name": "Weapons", "$text": "MRF(Arm), LRP, LVB(Arm)", "typeId": "4ddd-1a47-f23d-0436"},
+              {"name": "Traits", "$text": "Airdrop, Arms, Jetpack:8\"", "typeId": "1ee4-e483-4899-3d16"},
+              {"name": "Type/Height", "$text": "Gear 1\"", "typeId": "22d3-588f-e366-c398"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Man at Arms Golem, Suppressor",
+        "id": "971c-fd03-ab5b-d2af",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 212,
+        "publicationId": "20bd-c8e1-5e20-75e8",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "d051-3b8d-d8a4-9964", "hidden": false, "primary": true, "targetId": "70ee-6571-e701-4049"},
+          {"name": "Arms", "id": "065f-0c3e-c50c-6862", "hidden": false, "primary": false, "targetId": "4119-14a2-4e63-39ac"}
+        ],
+        "costs": [{"name": " Action(s)", "typeId": "4e06-e713-b451-4dcf", "value": 1}, {"name": " Threat Value", "typeId": "1246-3dcc-42ed-c683", "value": 6}],
+        "entryLinks": [
+          {
+            "name": "Model Options",
+            "id": "4db6-bbdd-c258-8aa6",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "9c6f-64ad-4503-42ab",
+            "type": "selectionEntryGroup",
+            "entryLinks": [
+              {
+                "name": "Utopia APES (Constable and Marshal upgrade)",
+                "id": "1c83-c3af-6dd9-a518",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "targetId": "a0a3-f045-4d61-6eb5",
+                "type": "selectionEntry",
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "2ddc-2b1c-a793-6b8b",
+                                "field": "selections",
+                                "includeChildForces": false,
+                                "includeChildSelections": true,
+                                "percentValue": false,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 1
+                              },
+                              {
+                                "childId": "4ddb-1caf-2f09-918c",
+                                "field": "selections",
+                                "includeChildForces": false,
+                                "includeChildSelections": true,
+                                "percentValue": false,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "e54b-9e59-c994-d744",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Grenade Launcher, Light", "id": "ab01-2a91-2ca3-9a8c", "hidden": false, "targetId": "5335-b2ad-8587-5bae", "type": "profile"},
+          {"name": "Anti-Vehicle Rocket Pack, Light", "id": "6a12-3fe3-f1a7-81b9", "hidden": false, "targetId": "f12a-9673-7f6c-35b0", "type": "profile"},
+          {"name": "Vibro Blade, Light", "id": "d23b-dc19-336a-2822", "hidden": false, "targetId": "b471-9227-6b90-f597", "type": "profile"},
+          {"name": "Airdrop", "id": "3495-a236-67a3-9e50", "hidden": false, "targetId": "19a8-9f36-2ca4-ba51", "type": "rule"},
+          {"name": "Arms", "id": "b39e-f587-fc58-317c", "hidden": false, "targetId": "32f5-36dc-6e46-e571", "type": "rule"},
+          {"name": "Jetpack:X\"", "id": "2f17-c9bb-f981-95a6", "hidden": false, "targetId": "7aac-c44b-e1a6-cbe6", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Suppressor Man at Arms Golem",
+            "id": "6c5c-28d7-da77-db78",
+            "hidden": false,
+            "page": 212,
+            "publicationId": "20bd-c8e1-5e20-75e8",
+            "typeId": "59ec-9ec7-dc1a-0aff",
+            "typeName": "Model",
+            "characteristics": [
+              {"name": "TV", "$text": "5", "typeId": "a718-b78d-b4d7-3c98"},
+              {"name": "UA", "$text": "SK, FS", "typeId": "759f-78f5-a55f-86a1"},
+              {"name": "MR", "$text": "W:6\"", "typeId": "d971-d530-75de-372c"},
+              {"name": "AR", "$text": "6", "typeId": "b326-1089-d050-c3d4"},
+              {"name": "H/S", "$text": "3/3", "typeId": "6956-1a42-03f7-5061"},
+              {"name": "A", "$text": "1", "typeId": "9151-7386-2112-169b"},
+              {"name": "GU", "$text": "4+", "typeId": "97e0-dcbe-fed2-c338"},
+              {"name": "PI", "$text": "5+", "typeId": "0d90-9e1a-4571-a154"},
+              {"name": "EW", "$text": "6+", "typeId": "d607-c085-3ac3-9660"},
+              {"name": "Weapons", "$text": "LGL(Arm), LRP, LVB(Arm)", "typeId": "4ddd-1a47-f23d-0436"},
+              {"name": "Traits", "$text": "Airdrop, Arms, Jetpack:8\"", "typeId": "1ee4-e483-4899-3d16"},
+              {"name": "Type/Height", "$text": "Gear 1\"", "typeId": "22d3-588f-e366-c398"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Man at Arms Golem, Ignus",
+        "id": "594c-626b-c7e9-fbf6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 212,
+        "publicationId": "20bd-c8e1-5e20-75e8",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "6661-c87d-c672-3c28", "hidden": false, "primary": true, "targetId": "70ee-6571-e701-4049"},
+          {"name": "Arms", "id": "7438-30f4-8848-e308", "hidden": false, "primary": false, "targetId": "4119-14a2-4e63-39ac"}
+        ],
+        "costs": [{"name": " Action(s)", "typeId": "4e06-e713-b451-4dcf", "value": 1}, {"name": " Threat Value", "typeId": "1246-3dcc-42ed-c683", "value": 5}],
+        "entryLinks": [
+          {
+            "name": "Model Options",
+            "id": "831a-2453-12b2-dcd8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "9c6f-64ad-4503-42ab",
+            "type": "selectionEntryGroup",
+            "entryLinks": [
+              {
+                "name": "Utopia APES (Constable and Marshal upgrade)",
+                "id": "3a6d-84f6-201f-2cc7",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "targetId": "a0a3-f045-4d61-6eb5",
+                "type": "selectionEntry",
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "2ddc-2b1c-a793-6b8b",
+                                "field": "selections",
+                                "includeChildForces": false,
+                                "includeChildSelections": true,
+                                "percentValue": false,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 1
+                              },
+                              {
+                                "childId": "4ddb-1caf-2f09-918c",
+                                "field": "selections",
+                                "includeChildForces": false,
+                                "includeChildSelections": true,
+                                "percentValue": false,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "e54b-9e59-c994-d744",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Flamer, Medium", "id": "c776-aeaf-c678-af8d", "hidden": false, "targetId": "a267-5e57-11e9-b0ee", "type": "profile"},
+          {"name": "Anti-Vehicle Rocket Pack, Light", "id": "5090-edc5-cb8f-100e", "hidden": false, "targetId": "f12a-9673-7f6c-35b0", "type": "profile"},
+          {"name": "Vibro Blade, Light", "id": "fa67-133c-d02e-4ae8", "hidden": false, "targetId": "b471-9227-6b90-f597", "type": "profile"},
+          {"name": "Airdrop", "id": "d326-a201-3718-3b77", "hidden": false, "targetId": "19a8-9f36-2ca4-ba51", "type": "rule"},
+          {"name": "Arms", "id": "d292-c93a-0a86-942e", "hidden": false, "targetId": "32f5-36dc-6e46-e571", "type": "rule"},
+          {"name": "Jetpack:X\"", "id": "512a-7ad6-2812-c81c", "hidden": false, "targetId": "7aac-c44b-e1a6-cbe6", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Ignus Man at Arms Golem",
+            "id": "fc0b-c281-671c-a785",
+            "hidden": false,
+            "page": 212,
+            "publicationId": "20bd-c8e1-5e20-75e8",
+            "typeId": "59ec-9ec7-dc1a-0aff",
+            "typeName": "Model",
+            "characteristics": [
+              {"name": "TV", "$text": "5", "typeId": "a718-b78d-b4d7-3c98"},
+              {"name": "UA", "$text": "SK, LT", "typeId": "759f-78f5-a55f-86a1"},
+              {"name": "MR", "$text": "W:6\"", "typeId": "d971-d530-75de-372c"},
+              {"name": "AR", "$text": "6", "typeId": "b326-1089-d050-c3d4"},
+              {"name": "H/S", "$text": "3/3", "typeId": "6956-1a42-03f7-5061"},
+              {"name": "A", "$text": "1", "typeId": "9151-7386-2112-169b"},
+              {"name": "GU", "$text": "4+", "typeId": "97e0-dcbe-fed2-c338"},
+              {"name": "PI", "$text": "5+", "typeId": "0d90-9e1a-4571-a154"},
+              {"name": "EW", "$text": "6+", "typeId": "d607-c085-3ac3-9660"},
+              {"name": "Weapons", "$text": "MFL(Arm), LRP, LVB(Arm)", "typeId": "4ddd-1a47-f23d-0436"},
+              {"name": "Traits", "$text": "Airdrop, Arms, Jetpack:8\"", "typeId": "1ee4-e483-4899-3d16"},
+              {"name": "Type/Height", "$text": "Gear 1\"", "typeId": "22d3-588f-e366-c398"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Man at Arms Golem",
+        "id": "852d-444d-0ed3-fe1a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 212,
+        "publicationId": "20bd-c8e1-5e20-75e8",
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "37fb-8ac8-f49c-bc15", "hidden": false, "primary": true, "targetId": "70ee-6571-e701-4049"},
+          {"name": "Arms", "id": "c0b8-d3d2-7ce5-3df7", "hidden": false, "primary": false, "targetId": "4119-14a2-4e63-39ac"}
+        ],
+        "costs": [{"name": " Action(s)", "typeId": "4e06-e713-b451-4dcf", "value": 1}, {"name": " Threat Value", "typeId": "1246-3dcc-42ed-c683", "value": 5}],
+        "entryLinks": [
+          {
+            "name": "Model Options",
+            "id": "80fe-cd22-e7bb-9067",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "9c6f-64ad-4503-42ab",
+            "type": "selectionEntryGroup",
+            "entryLinks": [
+              {
+                "name": "Utopia APES (Constable and Marshal upgrade)",
+                "id": "cfaa-026f-a412-6f48",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "targetId": "a0a3-f045-4d61-6eb5",
+                "type": "selectionEntry",
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "2ddc-2b1c-a793-6b8b",
+                                "field": "selections",
+                                "includeChildForces": false,
+                                "includeChildSelections": true,
+                                "percentValue": false,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 1
+                              },
+                              {
+                                "childId": "4ddb-1caf-2f09-918c",
+                                "field": "selections",
+                                "includeChildForces": false,
+                                "includeChildSelections": true,
+                                "percentValue": false,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "e54b-9e59-c994-d744",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Auto-Cannon, Light", "id": "ea51-4f89-d397-02d1", "hidden": false, "targetId": "1c78-4e65-eda9-1594", "type": "profile"},
+          {"name": "Anti-Vehicle Rocket Pack, Light", "id": "c565-aed6-2255-dfe2", "hidden": false, "targetId": "f12a-9673-7f6c-35b0", "type": "profile"},
+          {"name": "Vibro Blade, Light", "id": "1c2f-a850-dbce-da92", "hidden": false, "targetId": "b471-9227-6b90-f597", "type": "profile"},
+          {"name": "Airdrop", "id": "aeea-f944-3500-d28f", "hidden": false, "targetId": "19a8-9f36-2ca4-ba51", "type": "rule"},
+          {"name": "Arms", "id": "5687-8507-76e5-34d5", "hidden": false, "targetId": "32f5-36dc-6e46-e571", "type": "rule"},
+          {"name": "Jetpack:X\"", "id": "c010-1710-d6b8-bf0f", "hidden": false, "targetId": "7aac-c44b-e1a6-cbe6", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Man at Arms Golem",
+            "id": "1e3c-9912-e07d-82d2",
+            "hidden": false,
+            "page": 212,
+            "publicationId": "20bd-c8e1-5e20-75e8",
+            "typeId": "59ec-9ec7-dc1a-0aff",
+            "typeName": "Model",
+            "characteristics": [
+              {"name": "TV", "$text": "5", "typeId": "a718-b78d-b4d7-3c98"},
+              {"name": "UA", "$text": "SK(0+), FS", "typeId": "759f-78f5-a55f-86a1"},
+              {"name": "MR", "$text": "W:6\"", "typeId": "d971-d530-75de-372c"},
+              {"name": "AR", "$text": "6", "typeId": "b326-1089-d050-c3d4"},
+              {"name": "H/S", "$text": "3/3", "typeId": "6956-1a42-03f7-5061"},
+              {"name": "A", "$text": "1", "typeId": "9151-7386-2112-169b"},
+              {"name": "GU", "$text": "4+", "typeId": "97e0-dcbe-fed2-c338"},
+              {"name": "PI", "$text": "5+", "typeId": "0d90-9e1a-4571-a154"},
+              {"name": "EW", "$text": "6+", "typeId": "d607-c085-3ac3-9660"},
+              {"name": "Weapons", "$text": "LAC(Arm), LRP, LVB(Arm)", "typeId": "4ddd-1a47-f23d-0436"},
+              {"name": "Traits", "$text": "Airdrop, Arms, Jetpack:8\"", "typeId": "1ee4-e483-4899-3d16"},
+              {"name": "Type/Height", "$text": "Gear 1\"", "typeId": "22d3-588f-e366-c398"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

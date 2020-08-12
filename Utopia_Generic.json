@@ -1,0 +1,2138 @@
+{
+  "catalogue": {
+    "name": "Utopia",
+    "id": "6c28-fd8c-3033-a2b0",
+    "authorContact": "coldgap@gmail.com",
+    "authorName": "Coldgap",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "0ae7-d8d3-f08f-20a2",
+    "gameSystemRevision": 1,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "catalogueLinks": [{"name": "Utopia Models", "id": "9407-9de0-a0f8-600f", "importRootEntries": true, "targetId": "c27c-6008-8479-9b45", "type": "catalogue"}],
+    "entryLinks": [
+      {
+        "name": "Recce Armiger",
+        "id": "c26e-bebc-f0a7-b750",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "4309-ebcd-adf3-0f7b",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "1210-26e7-923c-1865",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "1210-26e7-923c-1865",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "e54b-9e59-c994-d744",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  },
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "ab9b-d902-afcf-4150",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Recce Armiger, Missile Support",
+        "id": "ed44-2fc7-ccee-eb82",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "0216-abc7-0d6c-3b52",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "b650-eedf-b8b9-0132",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "b650-eedf-b8b9-0132",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "ab9b-d902-afcf-4150",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Recce Armiger, Close Support",
+        "id": "1cd4-4d0f-fceb-7b51",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "c767-0dc6-28a3-df07",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "d215-a44f-2f9b-9a96",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "ab9b-d902-afcf-4150",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "d215-a44f-2f9b-9a96",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Recon N-KIDU",
+        "id": "883f-9d73-ad60-7ebe",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "bb47-e435-88c6-e8e9",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "373e-312f-3018-b961",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "ab9b-d902-afcf-4150",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "4ddb-1caf-2f09-918c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "373e-312f-3018-b961",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "e54b-9e59-c994-d744",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  },
+                  {
+                    "childId": "ab9b-d902-afcf-4150",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "373e-312f-3018-b961",
+            "type": "set",
+            "value": -1,
+            "conditions": [
+              {
+                "childId": "ab9b-d902-afcf-4150",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Recon N-KIDU, Hunter",
+        "id": "1193-dc1d-c292-9396",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "72b5-f057-29b4-1d03",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "1219-db70-7c48-c9be",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "ab9b-d902-afcf-4150",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "4ddb-1caf-2f09-918c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "1219-db70-7c48-c9be",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "e54b-9e59-c994-d744",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  },
+                  {
+                    "childId": "ab9b-d902-afcf-4150",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "1219-db70-7c48-c9be",
+            "type": "set",
+            "value": -1,
+            "conditions": [
+              {
+                "childId": "ab9b-d902-afcf-4150",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Recon N-KIDU, MP",
+        "id": "d25b-78d6-dab1-46ca",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "6e7e-dd65-dee6-8ce4",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "57b1-961d-2601-0fef",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": -1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "ab9b-d902-afcf-4150",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Recon ECM N-KIDU",
+        "id": "7572-9541-b3c4-5815",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "4d74-bedd-3519-b8ed",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "f6b5-01ea-fb51-b641",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "ab9b-d902-afcf-4150",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "f6b5-01ea-fb51-b641",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Recon N-KIDU, Comms",
+        "id": "3d98-4df4-e28c-f343",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "5527-c529-2e19-4b14",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "cd1f-bae8-c638-741c",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "ab9b-d902-afcf-4150",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "cd1f-bae8-c638-741c",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Support Armiger",
+        "id": "2081-3f8c-d7e9-3626",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "2dbf-1b83-bf45-acf1",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "18a1-319a-9856-2bda",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "18a1-319a-9856-2bda",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "e54b-9e59-c994-d744",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  },
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f0c2-049f-47f8-9b8f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Support Armiger, Missile",
+        "id": "ddfa-e963-459c-e7e8",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "6fc8-9f33-ccf0-b1b0",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "579a-b285-c935-cbd5",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "579a-b285-c935-cbd5",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f0c2-049f-47f8-9b8f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Support N-KIDU",
+        "id": "ade4-54c7-65d6-1ceb",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "eff0-8d79-0621-a85e",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "b76b-2c22-3b8f-2cdb",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": -1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "f0c2-049f-47f8-9b8f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Support N-KIDU, Battery",
+        "id": "122c-1a9c-f050-d8d6",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "9e42-65d6-7655-3986",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "0e7e-2e13-d19f-823d",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": -1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "f0c2-049f-47f8-9b8f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Support N-KIDU, Comms",
+        "id": "724f-0f53-6bb8-fb22",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "b009-a649-635d-0027",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "add4-eae1-e398-33ee",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "f0c2-049f-47f8-9b8f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "add4-eae1-e398-33ee",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Commando Armiger",
+        "id": "913b-6358-7936-4d0a",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "e6b5-447f-3a77-b5fd",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "02d5-3b4a-1563-c3c4",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "02d5-3b4a-1563-c3c4",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "e54b-9e59-c994-d744",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  },
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "4ddb-1caf-2f09-918c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Commando Armiger, Grenadier",
+        "id": "d9c6-0d68-0fad-f2e5",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "c04a-ab11-c16f-bc42",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "77a8-7fae-d4a0-f1d7",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "77a8-7fae-d4a0-f1d7",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "4ddb-1caf-2f09-918c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Commando Armiger, Sniper",
+        "id": "4723-958e-7006-d730",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "c41b-75d2-544c-10f2",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "0b88-e7f4-696b-90fb",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "0b88-e7f4-696b-90fb",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "4ddb-1caf-2f09-918c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Commando N-KIDU",
+        "id": "38ea-b4b1-cfe3-64d5",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "2b82-94f7-a6f1-d8c0",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "0ae2-9b7d-bc4e-ef6b",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f0c2-049f-47f8-9b8f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "4ddb-1caf-2f09-918c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "0ae2-9b7d-bc4e-ef6b",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "e54b-9e59-c994-d744",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  },
+                  {
+                    "childId": "4ddb-1caf-2f09-918c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "0ae2-9b7d-bc4e-ef6b",
+            "type": "set",
+            "value": -1,
+            "conditions": [
+              {
+                "childId": "4ddb-1caf-2f09-918c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Commando ECM N-KIDU",
+        "id": "14a5-0208-3472-4d7e",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "5d27-2c34-ffa5-4373",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "c533-1407-f44e-531b",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f0c2-049f-47f8-9b8f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "4ddb-1caf-2f09-918c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "c533-1407-f44e-531b",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Commando N-KIDU, Comms",
+        "id": "30fa-14d2-bb52-27ef",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "5ec1-d604-b541-a3a1",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "1cf6-bf93-d81a-cc5a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f0c2-049f-47f8-9b8f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "4ddb-1caf-2f09-918c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "1cf6-bf93-d81a-cc5a",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Commando N-KIDU, EMT",
+        "id": "28d8-161a-9bbf-69c5",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "dc9a-9343-1842-8b0c",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "5418-a6a6-6dab-8ca6",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "4ddb-1caf-2f09-918c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "f0c2-049f-47f8-9b8f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "ab9b-d902-afcf-4150",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Marsall APE",
+        "id": "5f42-bb86-7e70-9f13",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "ea69-3ed8-ef24-5c2d",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "85b9-658e-abef-02ea",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "4ddb-1caf-2f09-918c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Constable APE",
+        "id": "f8e3-074d-4cec-813f",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "375a-5adc-7a17-ccef",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "70f3-7b44-e212-55ab",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": -1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Constable APE, Ignus",
+        "id": "0f37-c896-b20b-c439",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "2eb9-7469-8192-3913",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "48b5-6826-e618-a377",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "48b5-6826-e618-a377",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Constable APE, Supressor",
+        "id": "3409-c5b3-f170-6983",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "cd36-7641-4c10-94dc",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "4f8a-cf74-2d46-4c19",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "4f8a-cf74-2d46-4c19",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Man at Arms APE",
+        "id": "4a1a-8a98-c6ea-c959",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "1fee-8cf7-6d6a-c15e",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "1af0-6eb1-9ca8-b04a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": -1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "4ddb-1caf-2f09-918c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Man at Arms APE, Sniper",
+        "id": "9f79-2a22-8c63-83a1",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "f64c-a050-8755-cbb1",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "b95f-4c46-463c-633b",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "b95f-4c46-463c-633b",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "4ddb-1caf-2f09-918c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Man at Arms APE, Ignus",
+        "id": "2483-bc4e-fa31-40e0",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "426f-4b14-52fe-7af3",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "7b55-8762-c1c7-ee15",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "7b55-8762-c1c7-ee15",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "4ddb-1caf-2f09-918c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Man at Arms APE, Supressor",
+        "id": "c994-6a55-caaf-ea69",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "a6c9-0c61-08ff-e338",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "b0c5-1cac-5d40-d728",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "b0c5-1cac-5d40-d728",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "4ddb-1caf-2f09-918c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Elite Army",
+        "id": "1d69-4cdc-49f9-f7f7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "50e7-1b7e-5954-42dc",
+        "type": "selectionEntry"
+      }
+    ]
+  }
+}

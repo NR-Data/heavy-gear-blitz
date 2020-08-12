@@ -1,0 +1,5438 @@
+{
+  "catalogue": {
+    "name": "C.E.F.",
+    "id": "e687-f976-9829-d773",
+    "authorContact": "coldgap@gmail.com",
+    "authorName": "Coldgap",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "0ae7-d8d3-f08f-20a2",
+    "gameSystemRevision": 1,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "catalogueLinks": [{"name": "CEF Models", "id": "23be-7f61-fc94-9da1", "importRootEntries": true, "targetId": "936e-8b33-a0cf-b0bd", "type": "catalogue"}],
+    "entryLinks": [
+      {
+        "name": "F6-16",
+        "id": "f4e2-5bdc-131e-ed3c",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "9dc5-78c7-df75-0d33",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "f3cc-1ba1-70ef-d5fc",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f0c2-049f-47f8-9b8f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "f3cc-1ba1-70ef-d5fc",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "F6-16: Anti-Tank Pack",
+        "id": "2682-1ee2-4184-9586",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "ea46-2c2f-2e24-98f5",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "d204-bb11-646c-4920",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f0c2-049f-47f8-9b8f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "d204-bb11-646c-4920",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "F6-16: Assault Pack",
+        "id": "878e-f58b-8821-0de8",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "ec66-e0e3-64a8-e7db",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "66c8-1451-7dab-7240",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f0c2-049f-47f8-9b8f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "66c8-1451-7dab-7240",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "F6-16: Recon Pack",
+        "id": "daa1-2247-c7be-be69",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "0195-b148-9b61-a3d9",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "114a-21dc-4817-81e8",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "ab9b-d902-afcf-4150",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "114a-21dc-4817-81e8",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "F6-16: Support Pack",
+        "id": "23e4-a17b-5a6a-c04d",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "14c2-2aa6-ec27-a81a",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "69b4-0243-c127-2841",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f0c2-049f-47f8-9b8f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "69b4-0243-c127-2841",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "CF6-16-S",
+        "id": "4cac-b25f-36e3-ec6e",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "4217-e867-78e9-2843",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "5470-32c0-c47b-5a8b",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "fe5b-d788-21cd-a4d2",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "ab9b-d902-afcf-4150",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "5470-32c0-c47b-5a8b",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "F6-16-S: Assault Pack",
+        "id": "2999-3225-c16f-ea2f",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "a817-c1e5-6c13-21d6",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "6789-afe3-8ed0-b725",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "ab9b-d902-afcf-4150",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "fe5b-d788-21cd-a4d2",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "6789-afe3-8ed0-b725",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "F6-16-S: Recon Pack",
+        "id": "58f6-d41b-0261-c71c",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "2d55-cf92-81ea-a7ae",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "f723-2b3e-5d55-8a76",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "ab9b-d902-afcf-4150",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "fe5b-d788-21cd-a4d2",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "f723-2b3e-5d55-8a76",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "BF2-21",
+        "id": "6347-23a8-d306-e32a",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "94b2-469b-84c1-99a8",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "3281-aa7d-d9a0-5d8a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "3281-aa7d-d9a0-5d8a",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "BF2-21: Support Pack",
+        "id": "0597-fea8-d8f5-b111",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "9805-e359-94dc-2a14",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "15dc-6a48-b7d4-205a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "15dc-6a48-b7d4-205a",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "BF2-21: Recon Pack",
+        "id": "a23b-4718-5347-e992",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "05d9-8fa1-26ae-1664",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "cbcc-1126-5f9a-411c",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "cbcc-1126-5f9a-411c",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "BF2-21: Assault Pack",
+        "id": "be66-038b-fa92-96e3",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "1d5f-d223-590c-87e4",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "7692-dc8e-1a9f-b5cf",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "7692-dc8e-1a9f-b5cf",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "BF2-21: Anti-Tank Pack",
+        "id": "d111-df79-f886-db8a",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "ffd8-184e-98e8-58f1",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "450e-8d2c-5588-b1b4",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "450e-8d2c-5588-b1b4",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "BF2-25",
+        "id": "1fc0-4edf-f0c5-1963",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "41cf-ccb6-4d9b-56f5",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "ea2d-0b4f-c893-c1f7",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "ab9b-d902-afcf-4150",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "fe5b-d788-21cd-a4d2",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "ea2d-0b4f-c893-c1f7",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "BF2-25: Recon Pack",
+        "id": "df20-537b-a90d-55c8",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "83b5-dd70-5975-7067",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "c372-23f1-9d88-ada2",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "ab9b-d902-afcf-4150",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "fe5b-d788-21cd-a4d2",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "c372-23f1-9d88-ada2",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "BF2-25: Assault Pack",
+        "id": "c4d7-a821-c816-8853",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "58e4-e837-b3f2-4551",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "268b-a8f0-e605-0959",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "ab9b-d902-afcf-4150",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "fe5b-d788-21cd-a4d2",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "268b-a8f0-e605-0959",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "BF2-2: Anti-Tank Pack",
+        "id": "d704-64f0-f3b6-19a2",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "6f1c-6bb1-725f-6149",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "a111-3154-5a51-4b91",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "ab9b-d902-afcf-4150",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "fe5b-d788-21cd-a4d2",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "a111-3154-5a51-4b91",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "BF2-19: Support Pack",
+        "id": "8d42-055e-5029-3816",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "44e9-5a37-ecf5-9b00",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "70ec-b0dd-6641-522c",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f0c2-049f-47f8-9b8f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "70ec-b0dd-6641-522c",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "BF2-19: Recon Pack",
+        "id": "462e-176e-0397-d080",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "a889-00c7-8d02-c789",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "1ef6-201a-fed6-b6b7",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f0c2-049f-47f8-9b8f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "1ef6-201a-fed6-b6b7",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "BF2-19: Assault Pack",
+        "id": "abc6-c181-ea32-e925",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "eeaa-da6d-6222-40be",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "f0ce-78c8-989e-02ad",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f0c2-049f-47f8-9b8f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "f0ce-78c8-989e-02ad",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "BF2-19: Anti-Tank Pack",
+        "id": "e021-ba90-1883-d599",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "75fd-0d16-7de4-5242",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "da0e-5c46-dc06-d186",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f0c2-049f-47f8-9b8f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "da0e-5c46-dc06-d186",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "BF2-19",
+        "id": "334f-46c8-22c3-3a4e",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "4ba8-18c3-fd6b-7c4b",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "b037-d44e-6224-326c",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f0c2-049f-47f8-9b8f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "b037-d44e-6224-326c",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "LHT-67",
+        "id": "b268-48d8-615e-1eeb",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "7ed9-fa54-ed4e-3aca",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "a817-c04e-d9a1-27df",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "5056-66f5-3675-e85c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "a817-c04e-d9a1-27df",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "LHT-67: Assault Pack",
+        "id": "171b-7e5c-93ea-5eae",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "c083-e972-cceb-973b",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "8e7f-ac02-70cd-f7a6",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "5056-66f5-3675-e85c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "8e7f-ac02-70cd-f7a6",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "LHT-67: AA Pack",
+        "id": "7e3d-8c41-5547-9e7f",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "aeb6-24a0-b090-a0de",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "c17c-fe38-4717-19cf",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "5056-66f5-3675-e85c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "c17c-fe38-4717-19cf",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MHT-95",
+        "id": "d324-960d-cca4-9075",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "6b02-4a09-4147-bb10",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "aa81-a8d8-f550-f9a2",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "5056-66f5-3675-e85c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "0e62-ee41-a76c-cf57",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "aa81-a8d8-f550-f9a2",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "LHT-71: Assault Pack",
+        "id": "0ce5-b965-e897-b4ea",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "31ce-1a37-a1cb-9b57",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "5d21-c597-f18a-67c9",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "5056-66f5-3675-e85c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "5d21-c597-f18a-67c9",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "LHT-71: AA Pack",
+        "id": "31ac-ed33-3aa1-f96d",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "1bb1-1511-c931-bfa4",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "094c-d4f6-b083-910d",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "5056-66f5-3675-e85c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "094c-d4f6-b083-910d",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "LHT-71",
+        "id": "93c4-7255-3aab-8e1b",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "aec3-04ae-dfc8-b930",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "2332-a76e-ebd4-896b",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "5056-66f5-3675-e85c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "2332-a76e-ebd4-896b",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MHT-95: Support Pack",
+        "id": "e313-39b0-5363-0a46",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "96fc-1b45-8989-a5b5",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "7e3f-52ea-615b-ff62",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "5056-66f5-3675-e85c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "0e62-ee41-a76c-cf57",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "7e3f-52ea-615b-ff62",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MHT-95: Assault Pack",
+        "id": "7d1d-620b-9990-8162",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "52e5-aa97-8ff8-5a96",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "1bd2-f8f8-b5ae-77c1",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "5056-66f5-3675-e85c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "0e62-ee41-a76c-cf57",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "1bd2-f8f8-b5ae-77c1",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MHT-68",
+        "id": "dccb-3619-79ac-79a1",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "32e0-80dc-7d48-2c24",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "199c-8c45-e071-864e",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "0e62-ee41-a76c-cf57",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "199c-8c45-e071-864e",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MHT-72: AA Pack",
+        "id": "2a8c-e187-f878-cdc2",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "0d85-93e6-9010-3ad5",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "fed1-3655-aee5-d411",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "0e62-ee41-a76c-cf57",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "fed1-3655-aee5-d411",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MHT-68: AA Pack",
+        "id": "b490-6a04-5c3e-63e7",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "83ca-0c3f-6e2d-4a94",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "a292-7893-7621-681e",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "0e62-ee41-a76c-cf57",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "a292-7893-7621-681e",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MHT-72",
+        "id": "8632-578c-3608-4b89",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "9191-9904-f886-01c6",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "0946-a614-03a3-9426",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "0e62-ee41-a76c-cf57",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "0946-a614-03a3-9426",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MHT-72: Assault Pack",
+        "id": "6cce-dd75-caf5-44da",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "1507-5bf2-9aac-bd38",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "e1b5-ddc0-3845-1a2c",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "0e62-ee41-a76c-cf57",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "e1b5-ddc0-3845-1a2c",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MHT-68: Assault Pack",
+        "id": "7798-4400-cf78-ec23",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "43fa-9aaf-4254-c084",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "be2a-3eac-7eca-9d22",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "0e62-ee41-a76c-cf57",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "be2a-3eac-7eca-9d22",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "HPC-64",
+        "id": "6739-c873-3f2f-c3f5",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "b0c1-7ba2-3d8a-32b7",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "c0f0-aade-7c74-3254",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "b246-3ac2-4320-df41",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "f641-73aa-e7ac-fd38",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "c0f0-aade-7c74-3254",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "e54b-9e59-c994-d744",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  },
+                  {
+                    "childId": "f641-73aa-e7ac-fd38",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "c0f0-aade-7c74-3254",
+            "type": "set",
+            "value": -1,
+            "conditions": [
+              {
+                "childId": "f641-73aa-e7ac-fd38",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "HPC-64: Medic",
+        "id": "913d-27f7-dd89-213d",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "6c57-a131-863d-036c",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "36df-0ecd-ef6c-f5d7",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "b246-3ac2-4320-df41",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "HPC-64: Support",
+        "id": "729b-8fc3-948c-8c89",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "320e-a174-7310-d89a",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "85e6-ce48-abe6-d86e",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": -1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "f641-73aa-e7ac-fd38",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "HC-3A",
+        "id": "8be5-bb57-784d-841e",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "b86f-2859-11d9-1b22",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "e8ad-a9a0-0e4c-799a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "ab9b-d902-afcf-4150",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "f641-73aa-e7ac-fd38",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "e8ad-a9a0-0e4c-799a",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "e54b-9e59-c994-d744",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  },
+                  {
+                    "childId": "ab9b-d902-afcf-4150",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "e8ad-a9a0-0e4c-799a",
+            "type": "set",
+            "value": -1,
+            "conditions": [
+              {
+                "childId": "ab9b-d902-afcf-4150",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peregrine Gunship",
+        "id": "28dc-9fbf-af04-aa9c",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "999c-437b-beda-487d",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "abcd-2839-05dd-c4c3",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": -1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "4617-583d-2671-b17f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peregrine Gunship, Tank Hunter",
+        "id": "6491-212a-dec5-5653",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "9a6e-3bfc-b153-3ce5",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "0434-57e5-107b-34a8",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "4617-583d-2671-b17f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "0434-57e5-107b-34a8",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "GREL Mortar Squad",
+        "id": "3233-0b91-ff4d-b493",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "ebdf-b409-b7fa-9785",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "d3d0-0ef3-5400-d301",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "b246-3ac2-4320-df41",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "f641-73aa-e7ac-fd38",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "f30f-52d1-54ed-47d4",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "d3d0-0ef3-5400-d301",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f641-73aa-e7ac-fd38",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "e54b-9e59-c994-d744",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "GREL Support Squad",
+        "id": "428b-6d3f-7680-d1a1",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "d302-0482-1dd8-014b",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "f247-77d5-2151-7d9a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "b246-3ac2-4320-df41",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "f641-73aa-e7ac-fd38",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "f30f-52d1-54ed-47d4",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "f247-77d5-2151-7d9a",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f641-73aa-e7ac-fd38",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "e54b-9e59-c994-d744",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "GREL Anti-Tank Squad",
+        "id": "080d-0056-3dea-94eb",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "d4dd-301f-9104-9f6c",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "bdf5-6ea4-d3a3-cad4",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "b246-3ac2-4320-df41",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "f641-73aa-e7ac-fd38",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "f30f-52d1-54ed-47d4",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "bdf5-6ea4-d3a3-cad4",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f641-73aa-e7ac-fd38",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "e54b-9e59-c994-d744",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "GREL Team, Morgana Assault",
+        "id": "6632-1523-6a5b-90e9",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "7d78-589f-111d-d9b6",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "9a01-4fa1-359b-a98c",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "b246-3ac2-4320-df41",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "f30f-52d1-54ed-47d4",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "9a01-4fa1-359b-a98c",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "GREL Team, Morgana Sniper",
+        "id": "79d0-2f2a-9559-e934",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "fbd5-621c-7c30-a95a",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "d079-471a-4eba-2b60",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "b246-3ac2-4320-df41",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "f30f-52d1-54ed-47d4",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "d079-471a-4eba-2b60",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "GREL Squad, Hoverbike",
+        "id": "729b-3328-ca6f-7d7d",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "97f9-fb3a-9c8f-6a47",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "90d0-5e08-74ef-c2ad",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 0
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "b246-3ac2-4320-df41",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "f641-73aa-e7ac-fd38",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "90d0-5e08-74ef-c2ad",
+            "type": "set",
+            "value": -1,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "any",
+                            "field": "4e06-e713-b451-4dcf",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "greaterThan",
+                            "value": 0
+                          },
+                          {
+                            "childId": "a0be-48c4-9ec7-2a39",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": true,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 100
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "4e06-e713-b451-4dcf",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "conditions": [
+                  {
+                    "childId": "b246-3ac2-4320-df41",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "90d0-5e08-74ef-c2ad",
+            "type": "set",
+            "value": 2,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "any",
+                            "field": "4e06-e713-b451-4dcf",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "greaterThan",
+                            "value": 0
+                          },
+                          {
+                            "childId": "a0be-48c4-9ec7-2a39",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": true,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 100
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "4e06-e713-b451-4dcf",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "f641-73aa-e7ac-fd38",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 1
+                      },
+                      {
+                        "childId": "e641-b0e1-b105-e4fa",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "90d0-5e08-74ef-c2ad",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "any",
+                            "field": "4e06-e713-b451-4dcf",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "greaterThan",
+                            "value": 0
+                          },
+                          {
+                            "childId": "a0be-48c4-9ec7-2a39",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": true,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 100
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "4e06-e713-b451-4dcf",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "f641-73aa-e7ac-fd38",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 1
+                      },
+                      {
+                        "childId": "e54b-9e59-c994-d744",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "GREL Squad, Hoverbike Anti-Tank",
+        "id": "9662-8a7e-7002-7ec1",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "7d31-50a8-a8de-9ad4",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "f9d9-6776-5219-396c",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 0
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "b246-3ac2-4320-df41",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "f9d9-6776-5219-396c",
+            "type": "set",
+            "value": 2,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "any",
+                            "field": "4e06-e713-b451-4dcf",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "greaterThan",
+                            "value": 0
+                          },
+                          {
+                            "childId": "a0be-48c4-9ec7-2a39",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": true,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 100
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "4e06-e713-b451-4dcf",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "conditions": [
+                  {
+                    "childId": "e641-b0e1-b105-e4fa",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "f9d9-6776-5219-396c",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "any",
+                            "field": "4e06-e713-b451-4dcf",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "greaterThan",
+                            "value": 0
+                          },
+                          {
+                            "childId": "a0be-48c4-9ec7-2a39",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": true,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 100
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "4e06-e713-b451-4dcf",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "conditions": [
+                  {
+                    "childId": "e54b-9e59-c994-d744",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "FLAIL Squad",
+        "id": "706b-b16f-fff2-b50d",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "da1a-49a9-4071-eeb4",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "cc37-da75-5d99-7a5d",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 0
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "b246-3ac2-4320-df41",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "f30f-52d1-54ed-47d4",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "cc37-da75-5d99-7a5d",
+            "type": "set",
+            "value": -1,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "any",
+                            "field": "4e06-e713-b451-4dcf",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "greaterThan",
+                            "value": 0
+                          },
+                          {
+                            "childId": "1374-3ce9-350f-4ab0",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": true,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 100
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "4e06-e713-b451-4dcf",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "conditions": [
+                  {
+                    "childId": "b246-3ac2-4320-df41",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "cc37-da75-5d99-7a5d",
+            "type": "set",
+            "value": 2,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "e641-b0e1-b105-e4fa",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  },
+                  {
+                    "childId": "b246-3ac2-4320-df41",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "cc37-da75-5d99-7a5d",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "e54b-9e59-c994-d744",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  },
+                  {
+                    "childId": "b246-3ac2-4320-df41",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "FLAIL Squad, Support",
+        "id": "6e62-140d-d5b8-745c",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "00af-c81b-9979-28f0",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "556a-b662-8f0b-4230",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 0
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "b246-3ac2-4320-df41",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "f30f-52d1-54ed-47d4",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "556a-b662-8f0b-4230",
+            "type": "set",
+            "value": 2,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditionGroups": [
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {
+                                    "childId": "any",
+                                    "field": "4e06-e713-b451-4dcf",
+                                    "includeChildForces": false,
+                                    "includeChildSelections": false,
+                                    "percentValue": false,
+                                    "scope": "parent",
+                                    "shared": true,
+                                    "type": "greaterThan",
+                                    "value": 0
+                                  },
+                                  {
+                                    "childId": "1374-3ce9-350f-4ab0",
+                                    "field": "selections",
+                                    "includeChildForces": false,
+                                    "includeChildSelections": false,
+                                    "percentValue": true,
+                                    "scope": "parent",
+                                    "shared": true,
+                                    "type": "equalTo",
+                                    "value": 100
+                                  }
+                                ]
+                              }
+                            ],
+                            "conditions": [
+                              {
+                                "childId": "any",
+                                "field": "4e06-e713-b451-4dcf",
+                                "includeChildForces": false,
+                                "includeChildSelections": false,
+                                "percentValue": false,
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 0
+                              }
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "b246-3ac2-4320-df41",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": true,
+                            "percentValue": false,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "b246-3ac2-4320-df41",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "conditions": [
+                  {
+                    "childId": "e641-b0e1-b105-e4fa",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "556a-b662-8f0b-4230",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditionGroups": [
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {
+                                    "childId": "any",
+                                    "field": "4e06-e713-b451-4dcf",
+                                    "includeChildForces": false,
+                                    "includeChildSelections": false,
+                                    "percentValue": false,
+                                    "scope": "parent",
+                                    "shared": true,
+                                    "type": "greaterThan",
+                                    "value": 0
+                                  },
+                                  {
+                                    "childId": "1374-3ce9-350f-4ab0",
+                                    "field": "selections",
+                                    "includeChildForces": false,
+                                    "includeChildSelections": false,
+                                    "percentValue": true,
+                                    "scope": "parent",
+                                    "shared": true,
+                                    "type": "equalTo",
+                                    "value": 100
+                                  }
+                                ]
+                              }
+                            ],
+                            "conditions": [
+                              {
+                                "childId": "any",
+                                "field": "4e06-e713-b451-4dcf",
+                                "includeChildForces": false,
+                                "includeChildSelections": false,
+                                "percentValue": false,
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 0
+                              }
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "b246-3ac2-4320-df41",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": true,
+                            "percentValue": false,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "b246-3ac2-4320-df41",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "conditions": [
+                  {
+                    "childId": "e54b-9e59-c994-d744",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "FLAIL Squad, Anti-Tank",
+        "id": "13b5-13cc-b0c3-bf67",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "c41e-2a08-9b6f-585b",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "3ed6-a9af-bcb7-12a7",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 0
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "b246-3ac2-4320-df41",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "f30f-52d1-54ed-47d4",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "3ed6-a9af-bcb7-12a7",
+            "type": "set",
+            "value": 2,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditionGroups": [
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {
+                                    "childId": "any",
+                                    "field": "4e06-e713-b451-4dcf",
+                                    "includeChildForces": false,
+                                    "includeChildSelections": false,
+                                    "percentValue": false,
+                                    "scope": "parent",
+                                    "shared": true,
+                                    "type": "greaterThan",
+                                    "value": 0
+                                  },
+                                  {
+                                    "childId": "1374-3ce9-350f-4ab0",
+                                    "field": "selections",
+                                    "includeChildForces": false,
+                                    "includeChildSelections": false,
+                                    "percentValue": true,
+                                    "scope": "parent",
+                                    "shared": true,
+                                    "type": "equalTo",
+                                    "value": 100
+                                  }
+                                ]
+                              }
+                            ],
+                            "conditions": [
+                              {
+                                "childId": "any",
+                                "field": "4e06-e713-b451-4dcf",
+                                "includeChildForces": false,
+                                "includeChildSelections": false,
+                                "percentValue": false,
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 0
+                              }
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "b246-3ac2-4320-df41",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": true,
+                            "percentValue": false,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "b246-3ac2-4320-df41",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "conditions": [
+                  {
+                    "childId": "e641-b0e1-b105-e4fa",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "3ed6-a9af-bcb7-12a7",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditionGroups": [
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {
+                                    "childId": "any",
+                                    "field": "4e06-e713-b451-4dcf",
+                                    "includeChildForces": false,
+                                    "includeChildSelections": false,
+                                    "percentValue": false,
+                                    "scope": "parent",
+                                    "shared": true,
+                                    "type": "greaterThan",
+                                    "value": 0
+                                  },
+                                  {
+                                    "childId": "1374-3ce9-350f-4ab0",
+                                    "field": "selections",
+                                    "includeChildForces": false,
+                                    "includeChildSelections": false,
+                                    "percentValue": true,
+                                    "scope": "parent",
+                                    "shared": true,
+                                    "type": "equalTo",
+                                    "value": 100
+                                  }
+                                ]
+                              }
+                            ],
+                            "conditions": [
+                              {
+                                "childId": "any",
+                                "field": "4e06-e713-b451-4dcf",
+                                "includeChildForces": false,
+                                "includeChildSelections": false,
+                                "percentValue": false,
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 0
+                              }
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "b246-3ac2-4320-df41",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": true,
+                            "percentValue": false,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "b246-3ac2-4320-df41",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "conditions": [
+                  {
+                    "childId": "e54b-9e59-c994-d744",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "FLAIL Squad, Interdiction",
+        "id": "7b5c-8dfa-cb4a-5f7e",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "4b60-ed63-49df-0b47",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "2f85-d58f-2d69-4dcf",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 0
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "b246-3ac2-4320-df41",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "f30f-52d1-54ed-47d4",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "2f85-d58f-2d69-4dcf",
+            "type": "set",
+            "value": 2,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditionGroups": [
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {
+                                    "childId": "any",
+                                    "field": "4e06-e713-b451-4dcf",
+                                    "includeChildForces": false,
+                                    "includeChildSelections": false,
+                                    "percentValue": false,
+                                    "scope": "parent",
+                                    "shared": true,
+                                    "type": "greaterThan",
+                                    "value": 0
+                                  },
+                                  {
+                                    "childId": "1374-3ce9-350f-4ab0",
+                                    "field": "selections",
+                                    "includeChildForces": false,
+                                    "includeChildSelections": false,
+                                    "percentValue": true,
+                                    "scope": "parent",
+                                    "shared": true,
+                                    "type": "equalTo",
+                                    "value": 100
+                                  }
+                                ]
+                              }
+                            ],
+                            "conditions": [
+                              {
+                                "childId": "any",
+                                "field": "4e06-e713-b451-4dcf",
+                                "includeChildForces": false,
+                                "includeChildSelections": false,
+                                "percentValue": false,
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 0
+                              }
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "b246-3ac2-4320-df41",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": true,
+                            "percentValue": false,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "b246-3ac2-4320-df41",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "conditions": [
+                  {
+                    "childId": "e641-b0e1-b105-e4fa",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "2f85-d58f-2d69-4dcf",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditionGroups": [
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {
+                                    "childId": "any",
+                                    "field": "4e06-e713-b451-4dcf",
+                                    "includeChildForces": false,
+                                    "includeChildSelections": false,
+                                    "percentValue": false,
+                                    "scope": "parent",
+                                    "shared": true,
+                                    "type": "greaterThan",
+                                    "value": 0
+                                  },
+                                  {
+                                    "childId": "1374-3ce9-350f-4ab0",
+                                    "field": "selections",
+                                    "includeChildForces": false,
+                                    "includeChildSelections": false,
+                                    "percentValue": true,
+                                    "scope": "parent",
+                                    "shared": true,
+                                    "type": "equalTo",
+                                    "value": 100
+                                  }
+                                ]
+                              }
+                            ],
+                            "conditions": [
+                              {
+                                "childId": "any",
+                                "field": "4e06-e713-b451-4dcf",
+                                "includeChildForces": false,
+                                "includeChildSelections": false,
+                                "percentValue": false,
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 0
+                              }
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "b246-3ac2-4320-df41",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": true,
+                            "percentValue": false,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "b246-3ac2-4320-df41",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "conditions": [
+                  {
+                    "childId": "e54b-9e59-c994-d744",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "FLAIL Team, Morgana",
+        "id": "1763-41a2-8ecb-c8b0",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "1586-e176-de84-0708",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "9a74-b323-62b0-33de",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 0
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "b246-3ac2-4320-df41",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "f30f-52d1-54ed-47d4",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "9a74-b323-62b0-33de",
+            "type": "set",
+            "value": 2,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditionGroups": [
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {
+                                    "childId": "any",
+                                    "field": "4e06-e713-b451-4dcf",
+                                    "includeChildForces": false,
+                                    "includeChildSelections": false,
+                                    "percentValue": false,
+                                    "scope": "parent",
+                                    "shared": true,
+                                    "type": "greaterThan",
+                                    "value": 0
+                                  },
+                                  {
+                                    "childId": "1374-3ce9-350f-4ab0",
+                                    "field": "selections",
+                                    "includeChildForces": false,
+                                    "includeChildSelections": false,
+                                    "percentValue": true,
+                                    "scope": "parent",
+                                    "shared": true,
+                                    "type": "equalTo",
+                                    "value": 100
+                                  }
+                                ]
+                              }
+                            ],
+                            "conditions": [
+                              {
+                                "childId": "any",
+                                "field": "4e06-e713-b451-4dcf",
+                                "includeChildForces": false,
+                                "includeChildSelections": false,
+                                "percentValue": false,
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 0
+                              }
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "b246-3ac2-4320-df41",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": true,
+                            "percentValue": false,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "b246-3ac2-4320-df41",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "conditions": [
+                  {
+                    "childId": "e641-b0e1-b105-e4fa",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "9a74-b323-62b0-33de",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditionGroups": [
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {
+                                    "childId": "any",
+                                    "field": "4e06-e713-b451-4dcf",
+                                    "includeChildForces": false,
+                                    "includeChildSelections": false,
+                                    "percentValue": false,
+                                    "scope": "parent",
+                                    "shared": true,
+                                    "type": "greaterThan",
+                                    "value": 0
+                                  },
+                                  {
+                                    "childId": "1374-3ce9-350f-4ab0",
+                                    "field": "selections",
+                                    "includeChildForces": false,
+                                    "includeChildSelections": false,
+                                    "percentValue": true,
+                                    "scope": "parent",
+                                    "shared": true,
+                                    "type": "equalTo",
+                                    "value": 100
+                                  }
+                                ]
+                              }
+                            ],
+                            "conditions": [
+                              {
+                                "childId": "any",
+                                "field": "4e06-e713-b451-4dcf",
+                                "includeChildForces": false,
+                                "includeChildSelections": false,
+                                "percentValue": false,
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 0
+                              }
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "b246-3ac2-4320-df41",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": true,
+                            "percentValue": false,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "b246-3ac2-4320-df41",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "conditions": [
+                  {
+                    "childId": "e54b-9e59-c994-d744",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "HHT-90",
+        "id": "7cb0-019f-00f2-79d8",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "c78f-0cff-9aaa-1bfc",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "a6a7-d10e-05ba-9a4e",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "f30f-52d1-54ed-47d4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "a6a7-d10e-05ba-9a4e",
+            "type": "set",
+            "value": 0,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Elite Army",
+        "id": "7d66-4609-664b-1d51",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "50e7-1b7e-5954-42dc",
+        "type": "selectionEntry"
+      }
+    ]
+  }
+}

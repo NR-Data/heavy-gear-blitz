@@ -1,0 +1,1770 @@
+{
+  "catalogue": {
+    "name": "Caprice",
+    "id": "34fc-2074-17df-25df",
+    "authorContact": "coldgap@gmail.com",
+    "authorName": "Coldgap",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "0ae7-d8d3-f08f-20a2",
+    "gameSystemRevision": 1,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "catalogueLinks": [{"name": "Caprice Models", "id": "2602-0174-0650-8cf8", "importRootEntries": true, "targetId": "b31e-519f-1096-626b", "type": "catalogue"}],
+    "entryLinks": [
+      {
+        "name": "Acco, Pyro",
+        "id": "5afb-7cd7-796c-62f1",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "830c-b6d8-9e19-4000",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "04bf-ebe2-d8c5-71eb",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "4ddb-1caf-2f09-918c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "04bf-ebe2-d8c5-71eb",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "e54b-9e59-c994-d744",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  },
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "04bf-ebe2-d8c5-71eb",
+            "type": "set",
+            "value": -1,
+            "conditions": [
+              {
+                "childId": "2ddc-2b1c-a793-6b8b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Acco, Stalker",
+        "id": "f718-8b2f-5830-6627",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "9952-9c0e-2875-27a6",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "0787-897d-912d-dfe2",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "ab9b-d902-afcf-4150",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "4ddb-1caf-2f09-918c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "0787-897d-912d-dfe2",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "e54b-9e59-c994-d744",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  },
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "0787-897d-912d-dfe2",
+            "type": "set",
+            "value": -1,
+            "conditions": [
+              {
+                "childId": "2ddc-2b1c-a793-6b8b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Acco",
+        "id": "96d2-3371-d6f2-2d41",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "e47f-d225-4918-aa72",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "d9a5-2f16-ec7e-46e2",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "f0c2-049f-47f8-9b8f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "1878-9489-cc99-a41b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dc6-72ae-a6fc-8c72",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "d9a5-2f16-ec7e-46e2",
+            "type": "set",
+            "value": 1,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "e54b-9e59-c994-d744",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  },
+                  {
+                    "childId": "2ddc-2b1c-a793-6b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "d9a5-2f16-ec7e-46e2",
+            "type": "set",
+            "value": -1,
+            "conditions": [
+              {
+                "childId": "2ddc-2b1c-a793-6b8b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bashan",
+        "id": "c576-7067-ffa3-9fff",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "84a3-558a-6820-a14b",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "ffb1-4d59-ff09-7eb5",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": -1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "ab9b-d902-afcf-4150",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bashan, Jammer",
+        "id": "05f7-4e91-1dbc-a79b",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "3fa5-70e7-d116-da7a",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "7b43-71ae-1370-0a8c",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "ab9b-d902-afcf-4150",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "4ddb-1caf-2f09-918c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "7b43-71ae-1370-0a8c",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aphek",
+        "id": "175b-25f3-ff3e-fa6e",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "c9c9-21b4-ccff-ae7d",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "e849-6b84-c1b6-106b",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": -1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "ab9b-d902-afcf-4150",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aphek, Close Support",
+        "id": "30e6-eb83-ccd0-c161",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "24d5-e369-acb8-81ea",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "4034-5340-52e7-8bcb",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "ab9b-d902-afcf-4150",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "4ddb-1caf-2f09-918c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "4034-5340-52e7-8bcb",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aphek, Support",
+        "id": "b344-a222-1388-7a43",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "77ca-4d80-faa9-a0ff",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "0367-cf62-d423-1402",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "ab9b-d902-afcf-4150",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "0367-cf62-d423-1402",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kadesh",
+        "id": "6447-4642-8d4c-1f1c",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "7887-2774-c794-5210",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "659e-3bab-11fb-484f",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": -1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "f0c2-049f-47f8-9b8f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kadesh, Close Support",
+        "id": "ab19-0aaa-2eea-a817",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "cfbc-8cad-3499-ab6b",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "3e42-454b-137c-94a5",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f0c2-049f-47f8-9b8f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "4ddb-1caf-2f09-918c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "3e42-454b-137c-94a5",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kadesh, Support",
+        "id": "6add-5ffe-054e-72a5",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "27a8-5e55-3363-64b5",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "e9d7-265d-9258-8b8c",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "f0c2-049f-47f8-9b8f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "e9d7-265d-9258-8b8c",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Meggido",
+        "id": "0a25-0bfc-756b-f5e0",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "333e-2c7f-aa36-2597",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "fdfa-ea4c-5bed-82af",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": -1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "f0c2-049f-47f8-9b8f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Meggido, Close Support",
+        "id": "edc3-888c-84cc-7164",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "3fdc-02ea-9a6e-3d74",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "ad9c-0bcc-7d3d-7903",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f0c2-049f-47f8-9b8f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "4ddb-1caf-2f09-918c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "ad9c-0bcc-7d3d-7903",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Meggido, Sniper",
+        "id": "2dce-fe18-eada-f119",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "07fb-e20d-3ee3-9013",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "ff71-4c9b-9a04-8e7e",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f0c2-049f-47f8-9b8f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "4ddb-1caf-2f09-918c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "ff71-4c9b-9a04-8e7e",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Meggido, Support",
+        "id": "93e7-6fd2-cd4b-15a3",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "9dd5-e43e-da66-0de4",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "84c4-de26-d588-7ee5",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "f0c2-049f-47f8-9b8f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "84c4-de26-d588-7ee5",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Meggido, Rocket Support",
+        "id": "0216-1bcf-3452-8e7d",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "1a4a-26e7-7b17-6b24",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "131f-d1c2-41bf-a21d",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "f0c2-049f-47f8-9b8f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "131f-d1c2-41bf-a21d",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ammon",
+        "id": "39ca-a425-7576-17ee",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "9d91-d615-4362-c850",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "1f7b-4e31-dffc-ee02",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": -1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "1878-9489-cc99-a41b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ammon, Support",
+        "id": "9ada-5178-0e2c-1c57",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "a934-785a-8414-eff4",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "bded-3778-dc38-56c0",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "1878-9489-cc99-a41b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "bded-3778-dc38-56c0",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ammon, Missile Support",
+        "id": "da85-a297-a9a1-cd93",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "8bf3-b6a0-85c0-0461",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "f4fd-cd63-d29c-b414",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "1878-9489-cc99-a41b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "f4fd-cd63-d29c-b414",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Moab",
+        "id": "e2dd-681f-574c-a867",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "65fc-2085-b175-9089",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "0819-4430-9cf7-0316",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": -1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "1878-9489-cc99-a41b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Moab, Support",
+        "id": "0313-de41-4a2c-d930",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "456f-259d-b6f9-5198",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "98dd-822e-5c2f-7554",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "1878-9489-cc99-a41b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "98dd-822e-5c2f-7554",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Moab, Close Support",
+        "id": "5990-9223-d2da-e659",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "9f99-a328-b8bf-3f85",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "0316-fc63-2fea-3f6c",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "1878-9489-cc99-a41b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "0316-fc63-2fea-3f6c",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hamath Medic",
+        "id": "e8da-6379-a8c7-5a4d",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "0f9d-5dc1-ec7b-c61a",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "23c3-2379-54ec-826d",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "b246-3ac2-4320-df41",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "23c3-2379-54ec-826d",
+            "type": "set",
+            "value": 0,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hamath",
+        "id": "18a0-9e49-0156-e3d1",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "e0a9-01e5-fec1-99a0",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "cf72-f182-30fd-fca8",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "b246-3ac2-4320-df41",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "cf72-f182-30fd-fca8",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "e54b-9e59-c994-d744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Troops, Corporate",
+        "id": "7c7f-fc00-65a0-891c",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "8e2b-d13d-249b-5edf",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "98bc-f058-2941-67bf",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": -1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "b246-3ac2-4320-df41",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Troops, Support",
+        "id": "9a4c-5643-b21a-170a",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "0935-4f61-6c14-2b82",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "2bc7-7fa8-fe5a-8b15",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": -1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "b246-3ac2-4320-df41",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Troops, Missile Support",
+        "id": "11fb-f923-2d6f-eb3c",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "d785-bb38-c539-ef3b",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "7006-38f0-cfc6-12f4",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": -1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "b246-3ac2-4320-df41",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Elite Army",
+        "id": "634a-6c66-53c3-4655",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "50e7-1b7e-5954-42dc",
+        "type": "selectionEntry"
+      }
+    ]
+  }
+}
